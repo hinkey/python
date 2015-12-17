@@ -1,0 +1,1 @@
+pm2 start /Users/hinkey/Documents/working/nodejs/mobileCloud/src/server.js
