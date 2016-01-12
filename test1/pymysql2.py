@@ -5,9 +5,7 @@ con = None
 
 try:
 
-    con = mdb.connect('localhost', 'testuser', 
-        'test623', 'testdb');
-
+    con = mdb.connect('localhost', 'testuser', 'test623', 'testdb');
     cur = con.cursor()
     cur.execute("SELECT VERSION()")
 
