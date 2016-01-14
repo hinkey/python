@@ -13,7 +13,7 @@ conn= mysql.connector.connect(
         host='192.168.110.27',
         port = 3306,
         user='root',
-        passwd='pass9cuo@2014',
+        passwd='passwd',
         db ='Cloud',
         )
 cur = conn.cursor()
