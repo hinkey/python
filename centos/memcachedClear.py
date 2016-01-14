@@ -6,7 +6,7 @@ import time
 
 LOG_FILENAME = "memcachedClearLog.txt"
 logging.basicConfig(filename=LOG_FILENAME, level=logging.NOTSET)
-mcache = memcache.Client(['t.10000bee.com:12660'])
+mcache = memcache.Client(['192.168.110.27:12660'])
 
 
 def clearFunction():

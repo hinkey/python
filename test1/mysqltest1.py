@@ -1,6 +1,5 @@
 import mysql.connector
 
-#conn = mysql.connector.connect(host='t.10000bee.com',user='root', password='password@2014', database='test')
 conn = mysql.connector.Connect(host='192.168.110.27',user='root',password='password@2014',database='pytest')
 cursor = conn.cursor()
 

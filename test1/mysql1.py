@@ -10,7 +10,7 @@ def convert(data):
 
 
 conn= mysql.connector.connect(
-        host='t.10000bee.com',
+        host='192.168.110.27',
         port = 3306,
         user='root',
         passwd='pass9cuo@2014',
